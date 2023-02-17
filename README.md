@@ -1,3 +1,3 @@
 # Financial Data Project
-End Goal: Create an app that can help you decide which stocks to buy and sell.
+End Goal: Create an app that can help you decide which stocks to buy and sell specific to Intel and Apple.
 
