@@ -1,7 +1,7 @@
 # Financial Data Project
 End Goal: Create an app that can help you decide which stocks to buy and sell specific to Intel and Apple.
 
-### Step 1: Find Data
+### Step 1: Find Data Sources
 
 1. **Huge Stock Market Dataset (Kaggle) Evaluation:** The dataset has an extensive amount of data (in terms of time) for both Apple and Intel which is hard to find on the internet. However, one limitation to this dataset is that the number of features is quite limited. I'll need to merge other datasets with this one if this serves as my base dataset so I have more information about each datapoint. Also note that the data is not updated which is a little annoying... if there is a dataset that has more recent data, then I would choose that over this.
 
@@ -12,3 +12,5 @@ End Goal: Create an app that can help you decide which stocks to buy and sell sp
 4. **New York Stock Exchange (Kaggle) Evaluation:** This dataset did not need to be tested because similar to the S&P 500 Stock Dataset, its timeline is very small, merely from 2010 to 2016, while providing the same features given in the Stock Market Dataset. One thing that is useful in this dataset is that it provides a file that shows metrics extracted from annual SEC 10K fillings. However, there are probably more extensive datasets than this that cover the SEC 10K fillings.
 
 5. **AMEX, NYSE, NASDAQ Stock Histories Dataset (Kaggle) Evaluation:** The dataset did not need to be tested despite how it covers multiple indexes of the stock market. This is because of its one major problem which is that the dataset contains extremely recent data - just the last 2-3 years - with the same features that are offered by the Stock Market Dataset. Due to this, the dataset does not serve a strong purpose for this project.
+
+6. **Polygon.io API Evaluation:** The dataset did not need to be tested because the API only supports 2 years of historical data for free. Nevertheless, this API is useful as it allows you to get minute-by-minute data on the stock market fluctuations and it has the same features as the Stock Market Dataset. However, since you need to pay to access more information, it makes more sense to find an API that gives that data for free, assuming an API like this exists. If not, then we can use the Stock Market Dataset.
